@@ -1,0 +1,301 @@
+.bg-violeta{
+    background-color: rgb(0, 0, 0); 
+
+}
+
+/* Main */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inicio-h1{
+    font-size: 50px;
+}
+
+.inicio-h2{
+    font-size: 25px;
+}
+
+.hero-content{
+    margin-left: 100px;
+}
+
+.hero-img{
+    height: 500px;
+    margin-top: 30px;
+}
+
+.hero-img img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+/* Main */
+
+/* Carousel-Main */
+
+.carousel{
+    width: 100%;
+    transition: unset;
+}
+
+.carousel-inner{
+    height: 600px;
+}
+
+.d-block .w-100{
+    object-fit: contain;
+    position: relative;
+}
+
+.carousel-control-next-icon{
+    transition: 2s;
+}
+
+.carousel img{
+    width: 200px;
+    height: 600px;
+}
+
+/* Carousel-Main */
+
+/* Cards */
+
+.card-main, .card-main-content{
+    display: flex;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    gap: 200px;
+    margin-top: 13px;
+    position: relative;
+    width: 97vw;
+    height: 100vh;
+    margin-left: 10px;
+}
+
+
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.btn .btn-primary{
+    position: relative;
+    left: 100px;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+/* Cards */
+
+
+/* Contacto */
+
+nav .navbar{
+    background-color: black;
+}
+
+.hero-contact{
+    display: flex;
+}
+
+.hero-contact-content{
+    margin-left: 35px;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.mb-3{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.hero-contact-img{
+    width: 90%;
+    height: 80%;
+}
+
+@media (max-width: 740px){
+    .hero-contact-img{
+        display: none;
+    }
+}
+
+/* Contacto */
+
+/* Card */
+
+.h-100{
+    height: 100%;
+}
+
+@media (max-width: 770px){
+    .card-main, .card-main-content{
+        flex-direction: column;
+        height: 1500px;
+    }
+}
+
+/* Card */
+
+/* Sobre nosotros */
+
+.hero-nosotros{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg-sobre-nosotros.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    padding-left: 30px;
+}
+
+.hero-nosotros, h1{
+   font-size: 20px;
+   padding-top: 50px;
+   padding-left: 30px;
+}
+
+.hero-nosotros, h2{
+    padding-left: 30px;
+}
+
+.hero-nosotros, p{
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.hero-nosotros, a{
+    border: 3px solid black;
+}
+
+.btn-sobre-nosotros{
+    background-color: black;
+    width: 500px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    border-radius: 13px;
+}
+
+
+.cafe-sobre-nosotros{
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 350px;
+    top: -35px;
+}
+
+@media (max-width: 770px){
+    .cafe-sobre-nosotros{
+       display: none;
+    }
+}
+
+.sobre-nosotros-container{
+    display: flex
+    /* flex-wrap: wrap; */
+}
+
+.img2-sobre-nosotros{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    /* padding-top: 10px; */
+    /* padding-bottom: 60px; */
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    top: -30px;
+}
+
+
+
+.sobre-nosotros-h1{
+    margin-top: 10px;
+    display: block;
+    font-size: 30px;
+}
+
+
+.sobre-nosotros-p{
+     /* padding-top: 150px; */
+     margin: 0;
+     padding-left: 30px;
+}
+
+@media (max-width: 770px){
+    .img2-sobre-nosotros{
+      display: none;
+    }
+
+}
+
+/* Sobre nosotros */
+
+/* Menus */
+
+.hero-menus{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg-menus.jpg);
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.hero-content-menus h1, h2{
+    text-align: center;
+}
+
+/* Cards Menus */
+
+.menus-cards-container{
+    /* margin-top: 15px;
+    margin-bottom: 20px; */
+    /* width: 1050px; */
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.col:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+
+/* Cards Menus */
+
+/* Menus */
+
+/* Encontranos */
+
+.list-group{
+    width: 250px;
+    margin: 10px 10px 10px 10px;
+}
+
+.encontranos-list-container{
+    display: flex;
+}
+
+/* Encontranos */
